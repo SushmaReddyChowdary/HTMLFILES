@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<style>
+ p{
+ background-color:aqua;
+ color:red;
+ margin:20px;
+ }
+ div{
+ height:500px;
+ background-color:pink;
+ display:flex;
+ flex-direction:row; /* row,row-reverse,column-reverse,column */
+ flex-wrap:wrap;
+ align-items:flex-end;/*flex-start*/
+ justify-content:flex-start;
+ margin:30px;
+ padding:5px;
+ 
+ }
+ #one{
+ order:1;
+ }
+ #three{
+ order:2;
+ flex-grow:4;
+ align-self:center;
+ }
+ 
+</style>
+</head>
+<body>
+<div>
+ <p id="one"> i am paragraph1</p>
+ <p> i am paragraph2</p>
+ <p id="three"> i am paragraph3</p>
+ <p> i am paragraph4</p>
+ <p> i am paragraph5</p>
+ <p> i am paragraph6</p>
+ <p> i am paragraph7</p>
+ <p> i am iparagraph8</p>
+ </div>
+</body>
+</html>
